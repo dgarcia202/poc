@@ -61,3 +61,7 @@ sudo apt-get update
 sudo apt-get install -y mongodb-org
 sudo service mongod start
 sudo cat /var/log/mongodb/mongod.log
+
+#postgre
+sudo apt-get update
+sudo apt-get -y install postgresql postgresql-contrib
